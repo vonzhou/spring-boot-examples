@@ -22,7 +22,7 @@ public class MyBatisMapperScannerConfig {
 //        mapperScannerConfigurer.setBeanName("1");
         mapperScannerConfigurer.setSqlSessionFactoryBeanName("sqlSessionFactory");
         // 扫描Mapper接口子类
-        mapperScannerConfigurer.setBasePackage("com.vonzhou.example.domain");
+//        mapperScannerConfigurer.setBasePackage("com.vonzhou.example.domain");
         Properties properties = new Properties();
         // 这里要特别注意，不要把MyMapper（AbstractDao）放到 basePackage 中，也就是不能同其他Mapper(Dao)一样被扫描到。
         properties.setProperty("mappers", AbstractDao.class.getName());

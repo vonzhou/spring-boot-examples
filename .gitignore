@@ -26,3 +26,4 @@
 
 spring-boot-hello/target
 spring-boot-two-datasource/target
+spring-boot-mybatis/target

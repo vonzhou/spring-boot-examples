@@ -13,6 +13,7 @@
         <module>spring-boot-two-datasources</module>
         <module>spring-boot-dot-truncated</module>
         <module>spring-boot-init-method</module>
+        <module>spring-boot-mybatis</module>
     </modules>
 
     <properties>
