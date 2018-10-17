@@ -5,13 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.vonzhou.examples</groupId>
-    <artifactId>spring-boot-hello</artifactId>
+    <artifactId>spring-boot-examples</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-boot-hello</module>
         <module>spring-boot-two-datasources</module>
         <module>spring-boot-dot-truncated</module>
+        <module>spring-boot-init-method</module>
     </modules>
 
     <properties>
